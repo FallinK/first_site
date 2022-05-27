@@ -1,0 +1,224 @@
+.row {
+	margin: 0 !important;
+}
+
+.name-org{
+	font-family: head-minecraft;
+}
+
+.header a, a:hover{
+	color: #43b5a0;
+	text-decoration: none;
+}
+
+.header h1 {
+	letter-spacing: 5px;
+	font-size: 150%;
+	margin-top: 30px;
+}
+
+.header p {
+	color: #fa448c !important;
+	font-size: 120%;
+	letter-spacing: 3px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #43b5a0;
+}
+
+.nav-pills>li>a {
+	color: #fff;
+}
+
+.nav-pills>li>a:hover {
+	background-color: #43b5a0;
+}
+
+.navbar {
+	border-radius: 0px;
+	font-family: minecraft;
+}
+
+.gray {
+	background-color: #222;
+	color: white;
+	padding: 2%;	
+}
+
+.gray hr {
+	border: 0;
+	height: 1px;
+	background: #fff;
+}
+
+.white {
+	padding-top: 3%;
+	padding-bottom: 14%;
+}
+
+.white hr {
+	border: 0;
+	height: 1px;
+	background: #222;
+}
+
+p.content {
+	font-size: 200%;
+	font-family: minecraft;
+}
+
+.img-fluid {
+	max-width: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.img-specs{
+	max-width: 70%;
+	max-height: 70%;
+}
+
+.menu {
+	margin-top: 2%;
+}
+
+.site-content {
+	margin-top: 5%;
+}
+
+.navbar-inverse {
+	opacity: 0.9;
+}
+
+.glyphicon-menu-right {
+	padding-right: 25px;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.list {
+	margin-top: 25px;
+	line-height: 1.7;
+}
+
+.tarifs {
+	margin-bottom: 5%;
+	font-size: 200%;
+	font-family: head-minecraft;
+}
+
+.company-name{
+	margin-bottom: 10px !important;
+}
+
+.resources {
+	margin-bottom: 5%;
+	font-size: 150%;
+	font-family: minecraft;
+}
+
+.mobile{
+	display: none;
+}
+
+
+img.logo {
+	width: 80%;
+	height: 80%;
+	margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+	.nav-pills>li {
+		float: none;
+	}
+
+	.nav-pills {
+		text-align: center;
+	}
+
+	.header h1 {
+		letter-spacing: 5px;
+		font-size: 280%;
+	}
+
+	.header {
+		text-align: center;
+	}
+
+	.desktop{
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+	}
+
+	.header h1 {
+	letter-spacing: 5px;
+	font-size: 100%;
+	}
+
+	.name-org{
+	font-family: head-minecraft;
+	font-size: 150% !important;
+	}
+
+	p.content {
+		font-size: 150%;
+	}
+
+	img.logo {
+		display: block !important;
+	}
+
+	html {
+		padding-right: 0 !important;
+		margin-right: 0 !important;
+	}
+
+	.row {
+		margin: 0 !important;
+	}
+}
+
+@font-face {
+	font-family: minecraft; 
+	src: url(fonts/minecraft.ttf); 
+}
+
+@font-face {
+	font-family: head-minecraft; 
+	src: url(fonts/head_minecraft.ttf); 
+}
+
+
+
+
+/*
+.gif {
+	display: block; /* Устанавливаем 
+	width: 100%; /* Ширина и высота картинки 
+	height: 100%;
+	background-image: url('ender.jpg'); /* Заливаем блок статичной картинкой 
+	background-repeat: no-repeat;
+}
+*/
+
+/*
+<a class="gif" href="#"><img src="assets/img/end.gif" alt="Backup" class="img-fluid rounded float-left"></a>
+a.gif img {
+	visibility: hidden; /* Aнимация не была видна в ситуации, когда мышь не наведена 
+}*/
+/*
+a.gif:hover {
+	background:none; /* Фон (статичное изображение) не было видно при наведении мыши 
+}
+*/
+/*
+a.gif:hover img {
+	visibility: visible; /* При наведении анимация показывается 
+	border:0; /* без обрамления ;) 
+}*/
